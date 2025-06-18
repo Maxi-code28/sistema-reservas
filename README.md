@@ -1,18 +1,14 @@
-# Sistema de Reservas para Restaurantes
-Una aplicación web para gestionar reservas con confirmación por email.
+# Sistema de Reservas
 
-## Tecnologías
-- Front-end: React, HTML, CSS
-- Back-end: Flask, Python
-- Base de datos: MySQL
+## Descripción
+Este es un sistema web para gestionar reservas, diseñado con HTML, CSS y JavaScript. Incluye un formulario para seleccionar fechas, servicios y enviar confirmaciones por email.
+
+## Características
+- Interfaz responsive.
+- Formulario de reservas con validación.
+- Compatible con cualquier dispositivo.
 
 ## Instalación
-1. Clona el repositorio: `git clone https://github.com/Maxi-code28/sistema-reservas.git`
-2. Configura MySQL con `database/schema.sql`
-3. Instala dependencias del back-end: `pip install flask flask-cors mysql-connector-python`
-4. Instala dependencias del front-end: `npm install axios react-datepicker`
-5. Ejecuta el back-end: `cd backend; .\venv\Scripts\activate; python app.py`
-6. Ejecuta el front-end: `cd frontend; npm start` o abre `index.html` con Live Server
-
-## Demo
-[Enlace a Netlify/Vercel]
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Maxi-code28/sistema-reservas.git
